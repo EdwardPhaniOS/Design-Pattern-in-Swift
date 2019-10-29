@@ -118,6 +118,8 @@ let viewModel = CatViewModel(cat: omaniCat)
 let frame = CGRect(x: 0, y: 0, width: 300, height: 420)
 let catView = CatView(frame: frame)
 
+
+// On ViewController:
 // Cach 1
 viewModel.configure(catView)
 
